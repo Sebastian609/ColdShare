@@ -5,12 +5,12 @@
 #include <addons/RTDBHelper.h>
 
 
-#define WIFI_SSID "sebas"
-#define WIFI_PASSWORD "12345678"
-#define API_KEY "AIzaSyB0Rg_3H6CZXUKETI1koz3U7jvHcHmyymE"
-#define DATABASE_URL "https://esp8266-cba86-default-rtdb.firebaseio.com/"
-#define USER_EMAIL "sebavillar2110@gmail.com"
-#define USER_PASSWORD "211002_newpass"
+#define WIFI_SSID ""
+#define WIFI_PASSWORD ""
+#define API_KEY ""
+#define DATABASE_URL ""
+#define USER_EMAIL ""
+#define USER_PASSWORD ""
 
 
 
