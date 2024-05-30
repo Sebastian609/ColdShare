@@ -23,8 +23,8 @@ const emits = defineEmits(['cambiarFavoritoNombre'])
 
 <template>
   <div class="col columna">
-    <div class="card border-success mb-4" style="max-width: rem">
-      <h3 class="card-header" style="min-width: 100%">{{ title }}</h3>
+   
+      <h3 class="card-header mb-4" style="min-width: 100%">{{ title }}</h3>
       <div class="card-body text-primary w-90">
         <div class="row">
           <div class="col">
@@ -47,11 +47,11 @@ const emits = defineEmits(['cambiarFavoritoNombre'])
             </vep>
           </div>
          
-            <button @click="$emit('cambiarFavoritoNombre',title)" class = "btn btn-outline-primary mt-2">Favorito</button>
+          
             
          
         </div>
       </div>
     </div>
-  </div>
+
 </template>
