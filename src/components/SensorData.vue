@@ -14,6 +14,7 @@ components: {
 
 const props = defineProps({
   title: String,
+  time: String,
   data: Number,
   type: String,
 });
@@ -24,8 +25,9 @@ const emits = defineEmits(['cambiarFavoritoNombre'])
 <template>
   <div class="col columna">
    
-      <h3 class="card-header mb-4" style="min-width: 100%">{{ title }}</h3>
-      <div class="card-body text-primary w-90">
+      <h3 class="mb-4 " style="min-width: 100%">{{ title }}</h3>
+      <p>{{ time }}</p>
+      <div class="card-body mx-5 text-primary w-90">
         <div class="row">
           <div class="col">
             <vep
