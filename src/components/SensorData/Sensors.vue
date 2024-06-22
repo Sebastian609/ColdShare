@@ -17,7 +17,7 @@ const dataRef = dbRef(db, "/DHT11");
 const latestTemperature = ref("");
 const latestHumidity = ref("");
 const time =  ref("");
-const favorito = ref("");
+
 
 
 onMounted(() => {

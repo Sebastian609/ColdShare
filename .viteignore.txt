@@ -1,0 +1,6 @@
+src/ui/hierapolis-gh-pages/404.html
+src/ui/hierapolis-gh-pages/dashboard.html
+src/ui/hierapolis-gh-pages/forgot_password.html
+src/ui/hierapolis-gh-pages/forms.html
+src/ui/hierapolis-gh-pages/index.html
+src/ui/hierapolis-gh-pages/tables.html
