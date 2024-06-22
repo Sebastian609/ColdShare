@@ -4,6 +4,7 @@ import SideBar from "../components/SideBar/SideBar.vue"
 import Sensors from "../components/SensorData/Sensors.vue";
 import PanelHeader from "../components/Panels/PanelHeader.vue"
 import Navbar from "../components/Navbar/Navbar.vue"
+import Chart from "../components/Chart/Chart.vue"
 
 </script>
 
@@ -36,9 +37,15 @@ import Navbar from "../components/Navbar/Navbar.vue"
           <div class="panel-heading">
             <PanelHeader/>
           </div>
+
           <div class="panel-body">
             <Sensors />
           </div>
+
+          <div class="panel-body">
+            <Chart></Chart>
+          </div>
+          
         </div>
         
       </div>

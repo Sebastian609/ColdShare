@@ -7,8 +7,6 @@ import Navbar from "../components/Navbar/Navbar.vue";
 
 import DataTable from "primevue/datatable";
 import Column from "primevue/column";
-import ColumnGroup from "primevue/columngroup"; // optional
-import Row from "primevue/row"; // optional
 
 const dataRef = dbRef(db, "/datosHistoricos");
 import {
@@ -16,7 +14,6 @@ import {
   onValue,
   query,
   orderByKey,
-  limitToLast,
 } from "firebase/database";
 
 const historicalData = ref([]);
@@ -55,10 +52,6 @@ onMounted(() => {
   });
 });
 
-const options = {
-  responsive: true,
-  select: true,
-};
 </script>
 
 <template>
@@ -102,7 +95,7 @@ const options = {
                   tableStyle="min-width: 12rem;"
                 >
                   <Column
-                    field="id"
+                    field="time"
                     header="Time"
                     style="width: 25%; color: #000"
                   ></Column>

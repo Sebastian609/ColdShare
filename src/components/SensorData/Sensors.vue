@@ -1,4 +1,4 @@
-<script setup>
+<script  setup>
 import SensorData from '../SensorData.vue';
 import { ref } from 'vue';
 import {
@@ -19,9 +19,6 @@ const latestHumidity = ref("");
 const time =  ref("");
 const favorito = ref("");
 
-const cambiarFavorito = (title) => {
-  favorito.value = title;
-};
 
 onMounted(() => {
   const lastDataQuery = query(dataRef, orderByKey(), limitToLast(3));
@@ -56,7 +53,6 @@ onMounted(() => {
     ></SensorData>
     <SensorData
       type="%"
-      time="time"
       title="Humedad"
       :time="time"
       :data="latestHumidity"
