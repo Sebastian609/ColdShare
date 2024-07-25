@@ -7,17 +7,13 @@
 </template>
 
 <script>
-import Dashboard from './views/Dashboard.vue';
-
-// Importa componentes necesarios
-
+import Login from './views/Login.vue';
 
 export default {
-  name: 'App',
+  name: 'ColdShare',
 
   components: {
-   Dashboard
+    Login
   }
 };
 </script>
-
